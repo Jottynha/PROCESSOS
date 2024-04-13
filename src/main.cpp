@@ -2,6 +2,6 @@
 #include <iostream>
 
 int main() {
-    lerProcesso("datasets/P1.txt");
+    principal("datasets/output.txt");
     return 0;
 }

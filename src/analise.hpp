@@ -9,12 +9,12 @@
 #include <cstdlib>
 #include <ctime>
 
-
 using namespace std;
 
 vector<double> lerNumeros(const string& nome_arquivo);
 double somativa(const vector<double>);
-double lerLinha();
-void lerProcesso(const string& nome_arquivo);
+void lerProcesso(const string& entrada, const string& saida, int processo);
+void principal(const string& saida);
+string removeChar(string str, char ch);
 
 #endif // ANALISE_HPP
